@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+header{
+
+    background-color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    nav{
+
+
+text-decoration: underline;
+
+        
+ul{
+   display: flex;
+    gap: 20px;
+    
+text-decoration: underline;
+   li{
+    a{
+        text-decoration: none;
+        position: relative;
+        color:rgb(255, 255, 255)
+
+
+    }
+   }
+
+
+}
+
+
+    }
+
+}
+
+
+
+
+.perent1{
+
+    height:40vh;
+    margin-top: 20px;
+    margin-inline: 20px;
+    margin-bottom: 20px;
+display: flex;
+background-color: wheat;
+
+
+
+
+.contant1{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+   a{
+           
+button{
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+    border-radius: 20px;
+    &:hover{
+
+background-color: wheat
+
+
+
+    }
+    &:hover{
+
+        color: black; 
+        
+
+    }
+
+}
+   }
+
+padding-top: 60px;
+padding-bottom: 60px;
+padding-left: 10px;
+
+}
+
+.contant2{
+    width: 50%;
+
+display: flex;
+align-items: center;
+justify-content: end;
+padding-right: 10px;
+
+
+
+}
+
+
+
+}
+.perent3{
+
+
+display: flex;
+gap: 20px;
+margin-top: 10px;
+padding: 10px;
+margin-left: 10px;
+margin-right: 10px;
+
+}
+.perent2{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: wheat;
+
+justify-content: center;
+}
+.contant3{
+
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 15px;
+margin-top: 100px;
+padding-left: 20px;
+padding-right: 20px;
+
+
+form{
+
+margin-top: 20px;
+}
+
+
+
+
+a{
+           
+    button{
+        background-color: black;
+        color: wheat;
+        padding: 10px;
+        border-radius: 20px;
+        &:hover{
+    
+    background-color: wheat
+    
+    
+    
+        }
+        &:hover{
+    
+            color: black; 
+            
+    
+        }
+    
+    }
+       }
+
+
+
+}
+
+
+
+
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+    color:wheat;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.skills-container {
+    display: flex;
+    gap: 10px;
+    gap: 20px;
+    flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+
+
+  }
+  
+  .skills-container button {
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    border: none;
+    gap: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+ 
+    margin-top: 50px;
+    
+  }
+  
+  .skills-container button:hover {
+
+    background-color:rgb(0, 0, 0);
+ 
+  }
+  .skills {
+    text-align: center;
+    margin-top: 20px;
+}
+  
+  
+
+
+.secation{
+
+
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+
+
+.pio2{
+     display: flex;
+
+    gap: 40px;
+    margin-top: 70px;
+    .pragraph{
+        width: 60%;
+        p{
+            padding-bottom: 20px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  a:hover::before {
+    transform: scaleX(1);
+  }
+
+
+
